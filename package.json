@@ -1,0 +1,51 @@
+{
+  "name": "puppeteer-extract-text",
+  "version": "0.0.1",
+  "description": "Extract textContent from an element on a webpage based on a querySelector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trgwii/puppeteer-extract-text.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "extract",
+    "text",
+    "url",
+    "query",
+    "selector",
+    "select",
+    "chromium"
+  ],
+  "author": "Thomas Rory Gummerson <thomas@gummerson.no> (https://trgwii.no/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trgwii/puppeteer-extract-text/issues"
+  },
+  "homepage": "https://github.com/trgwii/puppeteer-extract-text#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "@types/puppeteer": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.5"
+  }
+}
