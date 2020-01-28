@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-extract-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract textContent from an element on a webpage based on a querySelector",
   "main": "dist/index.js",
   "bin": "dist/index.js",
